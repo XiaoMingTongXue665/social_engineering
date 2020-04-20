@@ -1,0 +1,28 @@
+html {
+  width: 100%;
+  height: 100%;
+}
+body {
+  background-image: url('../image/mark.png');
+  background-size: 100% 100%;
+}
+.text-center {
+  color:red;
+}
+.form-group {
+  color:red;
+}
+.form-register {
+  width: 100%;
+  max-width: 400px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-group {
+  margin-bottom: 5px;
+}
+form a{
+  display: inline-block;
+  margin-top:25px;
+  line-height: 10px;
+}

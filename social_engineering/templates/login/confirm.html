@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册确认</title>
+</head>
+<body>
+
+
+    <h1 style="margin-left: 100px;">{{ message }}</h1>
+
+    <script>
+        window.setTimeout("window.location='{%url 'user:login'%}'",5000);
+    </script>
+
+    <p><a href="{% url 'user:login' %}">等待5秒或点击链接返回登录界面</a>&nbsp</p>
+</body>
+</html>
